@@ -1,0 +1,117 @@
+.kingKong-pagination{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    margin-top: 10px;
+}
+.home-header{
+    position: relative;
+    z-index: 2;
+}
+.home-header .line{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background: #fff;
+    padding: 8px 15px;
+}
+.home-header .line .logo{
+    width: 70px;
+    height: 20px;
+    background: url("../../assets/imgs/wangyiyanxuan_logo.png");
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+.home-header .line .login{
+    width: 37px;
+    height: 20px;
+    line-height: 20px;
+    color: #b4282d;
+    border: 1px solid #B4282d;
+    border-radius: 4px;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+.home-header .tabWrap{
+    position: relative;
+    z-index: 2;
+    background: #ffffff;
+    margin-top: -5px;
+}
+.home-header .tabWrap .m-tabs{
+    padding-right: 50px;
+}
+.home-header .tabWrap .m-tabs .inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.home-header .tabWrap .m-tabs .inner .list{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 15px;
+    background: #ffffff;
+    overflow-x: scroll
+}
+.home-header .tabWrap .m-tabs .inner .list .tab:first{
+    margin-left: 0;
+}
+.home-header .tabWrap .m-tabs .inner .list .tab{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    flex-shrink: 0
+}
+.home-header .tabWrap .m-tabs .inner .list .tab .text{
+    position: relative;
+    padding: 0 8px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333333;
+}
+.brand_ensure {
+    display: flex;
+    padding: 0 15px;
+    height: 36px;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #fff;
+  }
+
+  /* 商标保证 */
+  .brand_ensure .condition {
+    display: flex;
+  }
+  .brand_ensure .condition .u-icon {
+    width: 16px;
+    height: 16px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    font-size: 0;
+  }
+  .brand_ensure .condition .icon-ziying {
+    background-image: url("https://yanxuan.nosdn.127.net/a03dd909803b9ac032eba58b7253a2f6.png");
+  }
+  .brand_ensure .condition .icon-30day {
+    background-image: url("https://yanxuan.nosdn.127.net/2d0402ffcd52b3ec3b07422681c42a89.png");
+  }
+  .brand_ensure .condition .icon-48hour {
+    background-image: url("https://yanxuan.nosdn.127.net/eb61ee48e8942dbd1784c9ee75ebe955.png");
+  }
+  .brand_ensure .condition .title {
+    font-size: 12px;
+  }
+  
+
+
+
+
+

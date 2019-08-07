@@ -1,0 +1,12 @@
+.mine .container .loginout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    background-color: #fff;
+    line-height: 48px;
+    font-size: 14px;
+  }
+  .mine .container .loginout .txt {
+    color: #333;
+  }

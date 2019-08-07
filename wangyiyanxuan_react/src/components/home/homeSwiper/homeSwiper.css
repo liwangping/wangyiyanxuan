@@ -1,0 +1,13 @@
+.swiper-container {
+    height: 185px;
+  }
+  .swiper-container .swiper-wrapper {
+    width: 375px;
+  }
+  .swiper-container .swiper-wrapper .swiper-slide {
+    width: 100%;
+  }
+  .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 100%;
+  }
+  

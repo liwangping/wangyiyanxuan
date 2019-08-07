@@ -1,0 +1,218 @@
+.index-floor {
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .freshmanModule {
+    padding-bottom: 15px;
+  }
+  .freshmanModule .Module_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 45px;
+  }
+  .freshmanModule .Module_header .txt {
+    position: relative;
+  }
+  .freshmanModule .Module_header :before {
+    left: -20px;
+    content: '';
+    position: absolute;
+    top: 22.5px;
+    width: 12px;
+    height: 1.5px;
+    background: #333;
+  }
+  .freshmanModule .Module_header :after {
+    right: -20px;
+    content: '';
+    position: absolute;
+    top: 22.5px;
+    width: 12px;
+    height: 1.5px;
+    background: #333;
+  }
+  .freshmanModule .content {
+    padding-left: 15px;
+    display: flex;
+  }
+  .freshmanModule .content .left {
+    display: block;
+    width: 169px;
+    height: 217px;
+    background-color: #f9e9cf;
+    border-radius: 2px;
+    margin-right: 2px;
+    color: #333;
+  }
+  .freshmanModule .content .left .name {
+    font-size: 16px;
+    padding: 15px 0 0 15px;
+  }
+  .freshmanModule .content .left .imgWrap {
+    margin: 20px auto;
+    width: 130px;
+    height: 128px;
+  }
+  .freshmanModule .content .left .imgWrap .m-lazyload {
+    position: relative;
+  }
+  .freshmanModule .content .left .imgWrap .m-lazyload img {
+    width: 100%;
+    height: 100%;
+  }
+  .freshmanModule .content .left .imgWrap .m-lazyload .animate {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    right: 32px;
+    bottom: 13px;
+    background: url("http://yanxuan.nosdn.127.net/3f7e731c6650bc1770589c78bd5a18b7.png") no-repeat;
+    background-size: 100% 100%;
+    animation: slides 1s linear infinite;
+  }
+  .freshmanModule .content .right {
+    display: block;
+  }
+  .freshmanModule .content .right .module1 {
+    background: #fbe2d3;
+    border-radius: 2px;
+    width: 171.5px;
+    height: 98px;
+    margin-bottom: 2px;
+    padding: 10px 0 0 15px;
+    position: relative;
+  }
+  .freshmanModule .content .right .module1 .activityItem {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .freshmanModule .content .right .module1 .activityItem .picWrap {
+    width: 100px;
+    height: 100px;
+  }
+  .freshmanModule .content .right .module1 .activityItem .picWrap img {
+    width: 100%;
+  }
+  .freshmanModule .content .right .module1 .activityItem .discount {
+    top: 0;
+    right: 15px;
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    opacity: 0.8;
+    background: #f59524;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  .freshmanModule .content .right .module1 .activityItem .discount .oldprice {
+    font-size: 8px;
+    margin-top: -3.5px;
+    text-decoration: line-through;
+  }
+  .freshmanModule .content .right .module1 .cnt .title {
+    font-size: 16px;
+    color: #333;
+  }
+  .freshmanModule .content .right .module1 .cnt .subTitle {
+    color: #7f7f7f;
+    font-size: 12px;
+  }
+  .freshmanModule .content .right .module2 {
+    background: #ffecc2;
+    border-radius: 4px;
+    width: 171.5px;
+    height: 98px;
+    margin-bottom: 2px;
+    padding: 10px 0 0 15px;
+    position: relative;
+  }
+  .freshmanModule .content .right .module2 .activityItem {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .freshmanModule .content .right .module2 .activityItem .picWrap {
+    width: 100px;
+    height: 100px;
+  }
+  .freshmanModule .content .right .module2 .activityItem .picWrap img {
+    width: 100%;
+  }
+  .freshmanModule .content .right .module2 .activityItem .discount {
+    top: 0;
+    right: 15px;
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    opacity: 0.8;
+    background: #f59524;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+  }
+  .freshmanModule .content .right .module2 .activityItem .discount .nowprice {
+    font-size: 14px;
+  }
+  .freshmanModule .content .right .module2 .activityItem .discount .oldprice {
+    font-size: 8px;
+    margin-top: -3.5px;
+    text-decoration: line-through;
+  }
+  .freshmanModule .content .right .module2 .cnt .title {
+    font-size: 16px;
+    color: #333;
+  }
+  .freshmanModule .content .right .module2 .cnt .tag {
+    color: #7f7f7f;
+    font-size: 12px;
+    background: #cbb693;
+    color: #fff;
+    text-align: center;
+    padding: 0 5px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+  }
+  @-moz-keyframes slides {
+    from {
+      left: 80px;
+    }
+    to {
+      left: 85px;
+    }
+  }
+  @-webkit-keyframes slides {
+    from {
+      left: 80px;
+    }
+    to {
+      left: 85px;
+    }
+  }
+  @-o-keyframes slides {
+    from {
+      left: 80px;
+    }
+    to {
+      left: 85px;
+    }
+  }
+  @keyframes slides {
+    from {
+      left: 80px;
+    }
+    to {
+      left: 85px;
+    }
+  }

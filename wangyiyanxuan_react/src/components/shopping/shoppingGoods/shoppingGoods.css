@@ -1,0 +1,121 @@
+.shopping .container .shopping-goods {
+    background: #fff;
+  }
+  .shopping .container .shopping-goods .goods-list .goods {
+    padding: 8px 8px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali {
+    display: flex;
+    align-items: center;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .left-Button {
+    display: flex;
+    align-items: center;
+    margin: auto 10px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .left-Button .chooseButton {
+    width: 19px;
+    height: 19px;
+    background-image: url("https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/checkbox-s5698dc1449-767bf63b53.png");
+    background-position: 0 -244px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 19px 263px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .middle {
+    margin-right: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .middle img {
+    width: 86px;
+    height: 86px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right {
+    font-size: 14px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc {
+    position: relative;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Sort {
+    display: inline-block;
+    color: #7f7f7f;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    border-radius: 1px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 5px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Sort .desc {
+    display: inline-block;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Sort .icon {
+    display: inline-block;
+    margin: 5px 5px 0 6px;
+    vertical-align: top;
+    transform: rotate(90deg);
+    background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow_black_ic-b6eb851bba.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 5px;
+    height: 9px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Price {
+    display: flex;
+    margin-top: 12px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Price .newPrice {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .left .Price .oldPrice {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    text-decoration: line-through;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .addAndDecrease {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    padding-top: 1px;
+    width: 89px;
+    height: 27px;
+    background-origin: content-box;
+    display: inline-block;
+    background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/selnum-s47503e6ace-b4dda2963a.png");
+    background-repeat: no-repeat;
+    background-size: 154px 500px;
+    vertical-align: middle;
+    background-position: 0 -435px;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .addAndDecrease .less {
+    height: 26px;
+    width: 29px;
+    position: relative;
+    float: left;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .addAndDecrease .textWrap {
+    box-sizing: border-box;
+    width: 27px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    padding: 0 1px;
+    float: left;
+    display: block;
+  }
+  .shopping .container .shopping-goods .goods-list .goods .goodsDetali .right .desc .addAndDecrease .textWrap .tel {
+    z-index: 1;
+    font-size: 12px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    line-height: 1.5;
+    border: 0;
+  }

@@ -1,0 +1,26 @@
+
+  .shopping .container .content .tip ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+  }
+  .shopping .container .content .tip ul li {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    line-height: 16px;
+  }
+  .shopping .container .content .tip ul li .u-icon {
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/servicePolicy-0ec842d966.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    margin-top: 5px;
+    margin-right: -2px;
+    width: 10px;
+    height: 10px;
+  }
+ 
+  

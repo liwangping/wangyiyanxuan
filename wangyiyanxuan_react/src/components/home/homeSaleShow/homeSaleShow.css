@@ -1,0 +1,31 @@
+.m-kingKongModule .kingKong-container {
+    background-color: #fff;
+  }
+  .m-kingKongModule .kingKong-container .container {
+    display: flex;
+    flex-shrink: 0;
+    flex-flow: row wrap;
+  }
+  .m-kingKongModule .kingKong-container .container .kingKong-item {
+    width: 27px;
+    height: 90px;
+    margin: 10px 20px 0px 20px;
+  }
+  .m-kingKongModule .kingKong-container .container .kingKong-item img {
+    width: 55px;
+    height: 55px;
+  }
+  .m-kingKongModule .kingKong-container .container .kingKong-item .txt {
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  .m-kingKongModule .kingKong-pagination {
+    height: 10px;
+    width: 100%;
+    background-color: #eee;
+    margin-top: 10px;
+  }

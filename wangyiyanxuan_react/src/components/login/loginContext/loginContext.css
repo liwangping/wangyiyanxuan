@@ -1,0 +1,40 @@
+.loginContext{
+    position: relative;
+    background-color: #fff;
+}
+.loginContext .context_Header{
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+}
+.loginContext .context_Header .img{
+    background: url('../../../assets/imgs/wangyiyanxunlogin.png');
+    width: 106px;
+    height: 35px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.loginContext  .loginFrom {
+    padding: 80px 30px 0 30px;
+}
+.loginContext  .loginFrom input{
+    font-size: 15px;
+    line-height: 40px;
+    border: 0px;
+}
+.loginContext  .loginFrom .line{
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(102, 102, 102, 0.3);
+}
+.loginContext  .loginFrom .LoginSumbit{
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    background: #DD1A21;
+    color: rgba(255, 255, 255, 0.5);
+}
+

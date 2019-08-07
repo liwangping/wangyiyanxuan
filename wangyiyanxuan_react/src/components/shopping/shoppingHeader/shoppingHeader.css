@@ -1,0 +1,21 @@
+.shopping .container .header {
+    background: #fff;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 44px;
+  }
+  .shopping .container .header .left {
+    font-size: 18px;
+  }
+  .shopping .container .header .right {
+    padding: 0;
+    font-size: 15px;
+  }
+  .shopping .container .header .right .getTicket {
+    margin-right: 20px;
+    background: #fc625f;
+    color: #fff;
+    padding: 2px 3px;
+    font-size: 10px;
+  }

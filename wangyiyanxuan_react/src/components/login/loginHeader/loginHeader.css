@@ -1,0 +1,45 @@
+.LoginHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #fafafa;
+    margin: auto;
+    padding: 0 9px 0 13px;
+    position: relative;
+    align-items: center;
+}
+.L-home,.L-yangyiyanxuanlogo,.L-search_icon,.L-cate_icon{
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../../../assets/imgs/Login.png");
+    background-repeat: no-repeat;
+    background-size: 86px 210px;
+}
+.LoginHeader .L-home{
+    width: 24px;
+    height: 22px;
+    background-position: 0 -37px;
+}
+.LoginHeader .L-yangyiyanxuanlogo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 86px;
+    height: 27px;
+    background-position: 0 -64px;
+}
+.LoginHeader .L-search_icon{
+    width: 32px;
+    height: 32px;
+    background-position: 0 -178px;
+    margin-right: 10px;
+}
+.LoginHeader .L-cate_icon{
+    width: 32px;
+    height: 32px;
+    background-position: 0 0;
+}
+

@@ -1,0 +1,78 @@
+.limitTimeShop {
+    background-color: #fff;
+  }
+  .limitTimeShop .moduleTitle {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+  }
+  .limitTimeShop .moduleTitle .left {
+    font-size: 16px;
+    display: flex;
+  }
+  .limitTimeShop .moduleTitle .left .countdown {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .limitTimeShop .moduleTitle .left .countdown .hours,
+  .limitTimeShop .moduleTitle .left .countdown .mins,
+  .limitTimeShop .moduleTitle .left .countdown .secs {
+    display: inline-block;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 2px;
+    margin: 0 5px;
+    color: #fff;
+    line-height: 16px;
+  }
+  .limitTimeShop .moduleTitle .right span {
+    font-size: 14px;
+    color: #333;
+  }
+  .limitTimeShop .moduleTitle .right .iconTitleArrow {
+    display: inline-block;
+    background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/index-titleArrow-193a1a730c.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 6.5px;
+    height: 11.5px;
+    margin: -2.5px 0 0 4px;
+  }
+  .limitTimeShop .cnt {
+    background: #fff;
+    padding: 0 5px 0 15px;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap .flashSaleItem {
+    color: #333;
+    margin-right: 10px;
+    padding-bottom: 15px;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap .flashSaleItem .imgWrap {
+    width: 108px;
+    height: 108px;
+    background: #f5f5f5;
+    border-radius: 2px;
+    margin-bottom: 6px;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap .flashSaleItem .imgWrap img {
+    width: 108px;
+    height: 108px;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap .flashSaleItem .price .nowprice {
+    font-size: 14px;
+    color: #b4282d;
+    margin-right: 6px;
+  }
+  .limitTimeShop .cnt .FlashSaleWrap .flashSaleItem .price .oldprice {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-decoration: line-through;
+  }

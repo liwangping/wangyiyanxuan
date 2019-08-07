@@ -1,0 +1,113 @@
+  .mine .container .myOther {
+    margin-bottom: 20px;
+  }
+  .mine .container .myOther .lists {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #fff;
+  }
+  .mine .container .myOther .lists .item {
+    height: 90px;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .mine .container .myOther .lists .item .container {
+    display: block;
+    height: 90px;
+    padding-top: 22px;
+  }
+  .mine .container .myOther .lists .item .container .desc {
+    display: block;
+    text-align: center;
+  }
+  .mine .container .myOther .lists .item .container .desc .img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    background-image: url("https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-s4184c581c7-1b75c4216b.png");
+    background-size: 32px 588px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+  .mine .container .myOther .lists .item .container .desc .ulist {
+    background-position: 0 -387px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uping {
+    background-position: 0 -442px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uafterSale {
+    background-position: 0 -147px;
+  }
+  .mine .container .myOther .lists .item .container .desc .ubackmoney {
+    background-position: 0 -357px;
+  }
+  .mine .container .myOther .lists .item .container .desc .ufristBuy {
+    background-position: 0 -502px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uintegral {
+    background-position: 0 -473px;
+  }
+  .mine .container .myOther .lists .item .container .desc .umemberClub {
+    background-position: 0 -417px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uaddress {
+    background-position: 0 -117px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uacount {
+    background-position: 0 -563px;
+  }
+  .mine .container .myOther .lists .item .container .desc {
+    display: block;
+    text-align: center;
+  }
+  .mine .container .myOther .lists .item .container .desc .img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    background-image: url("https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/ucenter-s4184c581c7-1b75c4216b.png");
+    background-size: 32px 588px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+  .mine .container .myOther .lists .item .container .desc .ulist {
+    background-position: 0 -387px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uping {
+    background-position: 0 -442px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uafterSale {
+    background-position: 0 -147px;
+  }
+  .mine .container .myOther .lists .item .container .desc .ubackmoney {
+    background-position: 0 -357px;
+  }
+  .mine .container .myOther .lists .item .container .desc .ufristBuy {
+    background-position: 0 -502px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uintegral {
+    background-position: 0 -473px;
+  }
+  .mine .container .myOther .lists .item .container .desc .umemberClub {
+    background-position: 0 -417px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uaddress {
+    background-position: 0 -117px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uacount {
+    background-position: 0 -563px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uhelp {
+    background-position: 0 -267px;
+  }
+  .mine .container .myOther .lists .item .container .desc .uidea {
+    background-position: 0 -207px;
+  }
+  .mine .container .myOther .lists .item .container .desc .name {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    color: #333;
+  }
